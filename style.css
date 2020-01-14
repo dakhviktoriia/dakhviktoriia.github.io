@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+    overflow: hidden;
+}
+hr{
+    margin-top: 10px;
+}
+
+body::-webkit-scrollbar{
+    width: 0!important;
+} 
+
+section{
+    height: 100vh;
+    background-color: gainsboro;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.boxText{
+    width: 350px;
+    height: 450px;    
+    position: relative;
+}
+
+.title{
+    color: rgb(15, 192, 133);
+    font-size: 70px;
+}
+
+.text{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+.next{
+    width: 15px;
+    height: 10px;
+    background-image: url(img/scroll-arrow-down.png);
+    margin: 15px auto;
+    display: block;
+
+
+}
+
+.next:hover{
+    background-position: 0 10px;
+}
+
+.previous{
+    display: block;
+    width: 15px;
+    height: 10px;
+    background-image: url(img/scroll-arrow-up.png);
+    margin: 15px auto;
+}
+.previous:hover{
+    background-position: 0 10px;
+}
+
+.boxImage{
+    width: 500px;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ballon1{
+    width: 453px;
+    height: 640px;
+    background-image: url(img/balloon.png);
+    background-size: 453px 640px;
+    position: relative;
+
+}
+
+.ballon2{
+    width: 502px;
+    height: 520px;
+    background-image: url(img/balloon2.png);
+    background-size: 502px 520px;
+
+}
+
+.ballon3{
+    width: 375px;
+    height: 599px;
+    background-image: url(img/balloon3.png);
+    background-size: 375px 599px;
+
+}
+
+section:nth-of-type(4){
+    background-image: url(img/ground.png);
+    background-repeat: no-repeat;
+    background-position: center 250px;
+}
+
+.cloud{
+    background-image: url(img/cloud-sm1.png);
+    width: 320px;
+    height: 95px;
+    position: absolute;
+    right: 100px;
+    top: 500px;
+    display: inline-block;
+}
+
+.cloud2{
+    background-image: url(img/cloud-lg1.png);
+    width: 488px;
+    height: 138px;
+    position: absolute;
+    top: 500px;
+    display: inline-block;
+    
+    
+
+}
+
+.cloud3{
+    background-image: url(img/cloud-sm1.png);
+    width: 320px;
+    height: 95px;
+    position: absolute;
+
+}
+
+.cloud4{
+    background-image: url(img/cloud-lg1.png);
+    width: 300px;
+    height: 138px;
+    position: absolute;
+    right: 0;
+}
+
+.cloud5{
+    background-image: url(img/cloud-lg1.png);
+    width: 488px;
+    height: 138px;
+    position: absolute;
+    /* background-position: 190px 0px; */
+    left: -500px;
+}
+
+.cloud7{
+    background-image: url(img/cloud-lg1.png);
+    width: 490px;
+    height: 138px;
+    position: absolute;
+    left: 200px;
+}
+
+.cloud8{
+    background-image: url(img/cloud-lg1.png);
+    width: 490px;
+    height: 138px;
+    position: absolute;
+    left: 200px;
+    top: 100px;
+}
+
+.cloud9{
+    background-image: url(img/cloud-sm1.png);
+    width: 320px;
+    height: 95px;
+    position: absolute;
+    left: -70px;
+  
+}
+.cloud10{
+    background-image: url(img/cloud-sm1.png);
+    width: 320px;
+    height: 95px;
+    position: absolute;
+}
+.cloud11{
+    background-image: url(img/cloud-lg1.png);
+    width: 490px;
+    height: 138px;
+    position: absolute;
+    left: 400px;
+
+
+
+}
+.textOne{
+    display: block;
+    position: relative;
+}
+
+
+
+
+
+
+
+aside{
+    position: fixed;
+    width: 30px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+}
+.menu-aside{
+    width: 100%;
+    height: 15%;
+    /* background-color: deeppink; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu-aside li{
+    list-style-type: none;
+}
+
+.menu-aside li a{
+    display: block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-image: url(img/nav-dot.png);
+}
+
+.menu-aside li a:hover{
+    background-position: 24px 20px;
+}
+
+.active{
+    background-position: 24px 20px;
+}
+
+.ar{
+    background-image: url(img/nav-arrow.png);
+    width: 290px;
+    height: 28px;
+    position: absolute;
+    right: 50px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+
+}
+
+.b0{
+ top: 276px;
+ 
+}
+
+.b1{
+    top: 302px;
+}
+
+.b2{
+    top: 328px;
+}
+
+.b3{
+    top: 354px;
+
+}
+
+.header{
+
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    position: absolute;
+    padding: 15px;
+    color: rgb(15, 192, 133);
+    font-size: 23px;
+    font-weight: bold;
+    font-family: sans-serif
+    
+}
