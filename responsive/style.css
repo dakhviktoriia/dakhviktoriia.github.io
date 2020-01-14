@@ -1,0 +1,1080 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: "League Gothic";
+  src: url(fonts/league-gothic.regular.ttf);
+}
+
+@font-face {
+  font-family: "OpenSans";
+  src: url(fonts/OpenSans-Regular.ttf);
+}
+
+body {
+  background-color: #f9f9f9;
+}
+
+.block {
+  width: 960px;
+  margin: auto;
+}
+
+.menu480{
+    display: none;
+}
+
+/* HEADER  START*/
+.header {
+  height: 845px;
+  width: 100%;
+  background-image: url(icons/bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.bOne {
+  height: 845px;
+  padding-top: 75px;
+}
+
+.wrapperForPingMenu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.PINGBULLER {
+  width: 165px;
+  height: 50px;
+}
+
+.PINGBULL {
+  font-size: 48px;
+  font-family: "League Gothic";
+  color: rgb(255, 255, 255);
+  line-height: 0.703;
+  text-align: left;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.ER {
+  font-size: 48px;
+  font-family: "League Gothic";
+  color: rgb(195, 229, 75);
+  line-height: 0.703;
+  text-align: left;
+  background: linear-gradient(to top, #322539 0%, #745083 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.HOME {
+  display: none;
+}
+
+.menu {
+  height: 30px;
+  width: 673px;
+}
+
+.ulMenu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-link {
+  text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.4);
+  color: #ffffff;
+  font-family: "League Gothic";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 33.72px;
+  text-transform: uppercase;
+}
+.menu-link:hover {
+  text-decoration: underline #edbfff;
+}
+
+/* OVERLAY */
+.overlay {
+  width: 100%;
+  height: 400px;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 179px;
+}
+
+.boxOverlay {
+  height: 250px;
+  width: 503px;
+}
+
+.lorem {
+  color: #fefefe;
+  font-family: "League Gothic";
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+.will {
+  color: #edbfff;
+  font-family: "League Gothic";
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+.textOverlay {
+  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.iphone {
+  width: 280px;
+  height: 372px;
+  position: relative;
+  margin-right: 80px;
+  margin-bottom: 40px;
+}
+
+.smalliphone {
+  background-image: url(icons/iPhone_4_copy.png);
+  width: 130px;
+  height: 268px;
+  position: absolute;
+  top: 61px;
+}
+
+.bigiphone {
+  width: 195px;
+  height: 374px;
+  background-image: url(icons/iPhone_4.png);
+  position: absolute;
+  left: 77px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.stop {
+  width: 75px;
+  height: 75px;
+  background-image: url(icons/4-layers.png);
+}
+
+.NextPreviousHeader {
+  background-image: url(icons/2-layers.png);
+  background-repeat: no-repeat;
+  text-align: right;
+  margin: 90px auto 0;
+  height: 20px;
+  width: 85px;
+}
+
+/* HEADER  END*/
+
+/* HEADER2 START */
+
+.header2 {
+  height: 343px;
+  width: 100%;
+  background-image: linear-gradient(to top, #322539 0%, #745083 100%);
+}
+
+.bTwo {
+  height: 343px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about {
+  width: 290px;
+  height: 200px;
+  display: flex;
+}
+
+.wraperAbout {
+  margin-left: 9px;
+}
+
+.icon {
+  height: 28px;
+  width: 45px;
+  background-image: url(icons/source_of_icons.png);
+}
+
+.one {
+  background-position: -390px -146px;
+}
+.two {
+  background-position: -317px -272px;
+}
+.three {
+  background-position: -476px -10px;
+}
+
+.captionAbout {
+  width: 177px;
+  height: 28px;
+  text-shadow: 1px 1px 0 #0f1518;
+  color: #ffffff;
+  font-family: "League Gothic";
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.textAbout {
+  width: 231px;
+  height: 122px;
+  margin-top: 17px;
+  overflow: hidden;
+  text-shadow: 0px 1px 0px rgba(15, 21, 24, 0.004);
+  text-shadow: 1px 1px 0 #0f1518;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+.readMe {
+  height: 16px;
+  width: 229px;
+  text-align: right;
+  margin-top: 17px;
+}
+
+.README {
+  font-size: 18px;
+  font-family: "League Gothic";
+  color: rgb(255, 255, 255);
+  line-height: 1.333;
+  text-shadow: 0px 1px 0px rgba(15, 21, 24, 0.004);
+}
+.README:hover {
+  font-size: 18px;
+  font-family: "League Gothic";
+  color: rgb(255, 255, 255);
+  line-height: 1.333;
+  text-align: right;
+  text-shadow: 0px 0px 8px rgba(255, 255, 255, 0.8);
+  width: 229px;
+}
+
+/* HEADER2 END*/
+
+/* MENU SRART */
+
+/* MAIN1 START */
+.main1 {
+  height: 488px;
+  width: 100%;
+  background-color: #f9f9f9;
+}
+
+.bThree {
+  height: 488px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.block1Main1 {
+  width: 455px;
+  height: 316px;
+  padding-left: 22px;
+}
+
+.SRART {
+  width: 429px;
+  height: 294px;
+  background-image: url(icons/Layer\60png);
+  padding-top: 30px;
+  padding-left: 34px;
+  position: relative;
+}
+
+.PINGBULLStart {
+  font-size: 30px;
+  font-family: "League Gothic";
+  color: rgb(69, 69, 69);
+  text-transform: uppercase;
+  line-height: 0.8;
+  text-align: left;
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.004);
+}
+
+.STARTHERE {
+  color: #edbfff;
+}
+
+.textStart {
+  width: 351px;
+  height: 175px;
+  font-size: 16px;
+  font-family: "Open Sans";
+  color: rgb(69, 69, 69);
+  line-height: 1.5;
+  text-align: left;
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.004);
+}
+
+.man {
+  width: 50px;
+  height: 50px;
+  background-image: url(icons/source_of_icons.png);
+  background-position: -5px 52px;
+  position: absolute;
+  left: -17px;
+  top: 18px;
+}
+
+.NextPrevious {
+  width: 87px;
+  height: 20px;
+  margin: auto;
+  background-image: url(icons/source_of_icons.png);
+  background-position: -53px -19px;
+}
+.block2Main1 {
+  width: 461px;
+  height: 316px;
+  padding-top: 30px;
+}
+
+.line {
+  margin-top: 10px;
+  width: 450px;
+  height: 57px;
+  display: flex;
+  align-items: center;
+}
+
+.round {
+  background-image: url(icons/source_of_icons.png);
+  width: 50px;
+  height: 50px;
+  margin-right: 21px;
+}
+.round1 {
+  background-position: -72px 116px;
+}
+
+.round2 {
+  background-position: -144px 175px;
+}
+.round3 {
+  background-position: -215px 234px;
+}
+
+.Nunc {
+  font-size: 16px;
+  font-family: "OpenSans";
+  color: rgb(69, 69, 69);
+  line-height: 1.5;
+  text-align: left;
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.004);
+  font-weight: 900;
+}
+
+.Posted {
+  font-size: 16px;
+  font-family: "OpenSans";
+  color: rgb(69, 69, 69);
+  line-height: 1.5;
+  text-align: left;
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.004);
+}
+
+.MORE {
+  width: 461px;
+  height: 16px;
+  text-align: right;
+}
+
+.readMore {
+  color: rgb(69, 69, 69);
+  margin: 0;
+  font-size: 18px;
+  font-family: "League Gothic";
+  line-height: 1.333;
+  text-shadow: 0px 1px 0px rgba(15, 21, 24, 0.004);
+}
+
+.BLOG {
+  display: none;
+}
+
+/* MAIN1 END */
+
+.bFour {
+  height: 114px;
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons {
+  background-image: url(icons/logos.png);
+  width: 786px;
+  height: 72px;
+  background-repeat: no-repeat;
+}
+
+.images {
+  display: none;
+}
+
+/* MAIN2 START */
+.main2 {
+  height: 395px;
+  width: 100%;
+  background-color: #ececec;
+}
+.bFive {
+  height: 402px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.block1Main2 {
+  width: 279px;
+  height: 215px;
+}
+
+.ER2 {
+  font-size: 48px;
+  font-family: "League Gothic";
+  color: rgb(185, 185, 185);
+  line-height: 0.703;
+  text-align: left;
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.004);
+}
+
+.CATEGORIES {
+  display: none;
+}
+.right {
+  font-size: 16px;
+  margin-top: 20px;
+  font-family: "Georgia";
+  color: rgb(197, 197, 197);
+  font-style: italic;
+  line-height: 1.5;
+  text-align: left;
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.004);
+}
+
+.textMain2 {
+  margin-top: 20px;
+  font-size: 16px;
+  font-family: "Open Sans";
+  color: rgb(120, 120, 120);
+  line-height: 1.5;
+  text-align: left;
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.004);
+  overflow: hidden;
+  width: 282px;
+  height: 115px;
+}
+
+.textMain2-1 {
+  margin-top: 26px;
+  width: 283px;
+  height: 173px;
+}
+/* MAIN2 END */
+
+/* FOOTER */
+
+.footer {
+  height: 114px;
+  width: 100%;
+  background-image: url(icons/bg_copy.png);
+}
+
+.bSix {
+  height: 114px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.linkFooter {
+  font-size: 20px;
+}
+
+.desi {
+  font-size: 12px;
+  font-family: "Open Sans";
+  color: rgb(255, 255, 255);
+  line-height: 2.81;
+  text-align: left;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+}
+.AS {
+  font-weight: bolder;
+}
+
+@media screen and (max-width: 978px) {
+  .block {
+    width: 760px;
+  }
+
+  .bOne {
+    height: 800px;
+  }
+
+  .header {
+    height: 800px;
+  }
+
+  .wrapperForPingMenu {
+    display: inline;
+  }
+
+  .overlay {
+    margin-top: 80px;
+  }
+
+  .boxOverlay {
+    width: 283px;
+    height: 204px;
+    margin-left: 28px;
+  }
+
+  .lorem {
+    font-size: 48px;
+  }
+
+  .will {
+    font-size: 22px;
+  }
+
+  .textOverlay {
+    width: 276px;
+    height: 91px;
+    font-size: 16px;
+    overflow: hidden;
+  }
+
+  .about {
+    width: 230px;
+    height: 215px;
+    display: flex;
+  }
+
+  .captionAbout {
+    font-size: 24px;
+  }
+
+  .textAbout {
+    font-size: 15px;
+    width: 152px;
+    height: 140px;
+    overflow: hidden;
+    margin: 0;
+  }
+  .readMe {
+    width: 151px;
+  }
+
+  .readMe:hover {
+    width: 151px;
+  }
+  .line {
+    margin-top: 10px;
+    width: 331px;
+  }
+  .one {
+    background-position: -390px -146px;
+  }
+  .two {
+    background-position: -390px -146px;
+  }
+
+  .three {
+    background-position: -390px -146px;
+  }
+
+  .block1Main1 {
+    width: 340px;
+    height: 312px;
+  }
+
+  .SRART {
+    width: 313px;
+    height: 262px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    background-color: white;
+    background-image: none;
+  }
+
+  .textStart {
+    width: 248px;
+    height: 140px;
+    font-family: "Open Sans";
+    overflow: hidden;
+  }
+
+  .PINGBULLStart {
+    display: block;
+    font-size: 24px;
+  }
+
+  .NextPrevious {
+    margin-top: 25px;
+  }
+
+  .block2Main1 {
+    width: 339px;
+    height: 275px;
+  }
+
+  .recent {
+    font-size: 30px;
+  }
+
+  .Posted {
+    width: 257px;
+    height: 21px;
+    overflow: hidden;
+  }
+
+  .MORE {
+    width: 340px;
+  }
+
+  .readMore {
+    display: none;
+  }
+
+  .BLOG {
+    display: block;
+  }
+
+  .PINGBULLMain2,
+  .ER2,
+  .right,
+  .comments {
+    display: none;
+  }
+  .textMain2 {
+    width: 204px;
+    height: 171px;
+    overflow: hidden;
+  }
+
+  .textMain2-1 {
+    margin-top: 19px;
+  }
+
+  .footer {
+    height: 200px;
+  }
+
+  .bSix {
+    height: 200px;
+    flex-wrap: wrap;
+    padding-top: 45px;
+  }
+
+  .desiAS {
+    width: 760px;
+    text-align: right;
+    margin-top: -80px;
+  }
+
+  .menuFooter {
+    width: 524px;
+  }
+}
+
+@media screen and (max-width: 785px) {
+  .block {
+    width: 460px;
+  }
+  .menu480 {
+    width: 243px;
+    height: 255px;
+    background-color: rgba(60, 48, 68, 0.8);
+    position: absolute;
+    border-radius: 10px;
+    top: 20%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, 0%) ;
+    display: flex;
+    flex-wrap: wrap;
+
+
+    
+  }
+
+  .menuDrop{
+      display: block;
+      width: 243px;
+      height: 42.5px;
+      text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.4);
+      color: #ffffff;
+      font-family: "League Gothic";
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 33.72px;
+      text-transform: uppercase;
+      text-align: center;
+      border: 1px groove #53405b;
+
+
+  }
+
+  .menuDrop:hover{
+      text-decoration: underline #edbfff;
+  }
+  .menuDrop:nth-of-type(1){
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+  }
+  .menuDrop:nth-of-type(2){
+      background-color: #2d2432;
+      border-bottom: 2px solid #edbfff;
+  
+}
+  .menuDrop:nth-of-type(6){
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+  .bOne {
+    height: 551px;
+  }
+
+  .header {
+    height: 551px;
+  }
+
+  .menuHeader {
+    display: none;
+  }
+
+  .PINGBULLER {
+    margin: 0 auto;
+  }
+
+  .overlay {
+    height: 246px;
+  }
+  .boxOverlay {
+    width: 245px;
+    height: 100px;
+  }
+
+  .textOverlay {
+    display: none;
+  }
+
+  .lorem {
+    font-size: 36px;
+  }
+
+  .will {
+    font-size: 18px;
+    width: 220px;
+    height: 30px;
+    overflow: hidden;
+  }
+
+  .iphone {
+    width: 190px;
+    height: 256px;
+    margin: 0;
+  }
+
+  .bigiphone {
+    width: 128px;
+    height: 254px;
+    background-size: cover;
+    left: 40px;
+  }
+
+  .smalliphone {
+    width: 70px;
+    height: 150px;
+    background-size: cover;
+  }
+  .header2 {
+    height: 598px;
+  }
+
+  .bTwo {
+    height: 598px;
+    flex-wrap: wrap;
+  }
+
+  .NextPreviousHeader {
+    margin: 40px auto 0;
+  }
+
+  .about {
+    width: 454px;
+    height: 145px;
+    display: flex;
+  }
+
+  .wraperAbout {
+    width: 440px;
+    height: 134px;
+  }
+
+  .icon {
+    width: 55px;
+  }
+
+  .textAbout {
+    width: 380px;
+    height: 72px;
+  }
+
+  .readMe {
+    width: 380px;
+  }
+  .readMe:hover {
+    width: 380px;
+  }
+
+  .main1 {
+    height: 786px;
+  }
+
+  .bThree {
+    height: 786px;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .SRART {
+    width: 416px;
+  }
+
+  .main2 {
+    height: 680px;
+  }
+
+  .block1Main1 {
+    width: 455px;
+  }
+
+  .textStart {
+    width: 360px;
+  }
+
+  .PINGBULLStart {
+    display: inline;
+  }
+
+  .block2Main1 {
+    margin: 0;
+  }
+
+  .comments {
+    display: none;
+  }
+
+  .iconsMain1 {
+    display: none;
+  }
+
+  .bFour {
+    height: 230px;
+  }
+
+  .icons {
+    height: 165px;
+    width: 360px;
+    background-image: url(icons/logos2line.png);
+  }
+  .bFive {
+    height: 680px;
+    flex-wrap: wrap;
+    align-content: flex-end;
+  }
+
+  .block1Main2 {
+    width: 440px;
+  }
+
+  .textMain2 {
+    width: 440px;
+    height: 95px;
+    overflow: hidden;
+  }
+
+  .bSix {
+    height: 201px;
+  }
+
+  .linkFooter {
+    margin: 0;
+  }
+
+  .ulMenuFooter {
+    width: 435px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .desiAS {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .block {
+    width: 360px;
+  }
+
+  .iphone {
+    display: none;
+  }
+
+  .boxOverlay {
+    width: 209px;
+    height: 62px;
+    margin: auto;
+  }
+
+  .main1 {
+    height: 790px;
+  }
+
+  .about {
+    width: 304px;
+    height: 156px;
+    margin: auto;
+  }
+
+  .textAbout {
+    width: 200px;
+    height: 70px;
+  }
+
+  .readMe {
+    width: 183px;
+  }
+
+  .readMe:hover {
+    width: 183px;
+  }
+
+  .icon {
+    width: 85px;
+  }
+
+  .bThree {
+    height: 790px;
+  }
+
+  .SRART {
+    width: 230px;
+    height: 272px;
+  }
+  .PINGBULLStart {
+    display: block;
+  }
+
+  .textStart {
+    width: 185px;
+    height: 168px;
+  }
+
+  .block1Main1 {
+    width: 275px;
+  }
+
+  .block2Main1 {
+    width: 280px;
+    height: 290px;
+  }
+
+  .line {
+    width: 298px;
+  }
+
+  .MORE {
+    width: 323px;
+  }
+
+  .Nunc,
+  .Posted {
+    width: 214px;
+    height: 22px;
+    overflow: hidden;
+  }
+
+  .BLOG {
+    width: 280px;
+  }
+
+  .bFour {
+    height: 423px;
+  }
+
+  .main2 {
+    display: none;
+  }
+  .menuFooter {
+    display: none;
+  }
+
+  .icons {
+    display: none;
+  }
+
+  .images {
+    width: 360px;
+    height: 423px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .IMAGE {
+    margin-bottom: 40px;
+    width: 360px;
+  }
+
+  .HOME {
+    display: block;
+    width: 58px;
+    height: 37px;
+    margin: 0 auto;
+    text-decoration: underline #edbfff;
+    cursor: pointer;
+  }
+
+  .menu480{
+      display: none;
+  }
+}
