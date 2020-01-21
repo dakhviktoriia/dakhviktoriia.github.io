@@ -24,6 +24,7 @@ header {
   left: 0;
   right: 0;
   background-color: white;
+  z-index: 100;
 }
 
 header p {
@@ -36,10 +37,47 @@ header p {
 .burger-menu{
     display: none;
 }
+
+.closeB{
+    display: none;
+}
+.ul-burger{
+    display: flex;
+}
+
+.ul-burger li{
+    width: 120%;
+}
+.burger-menu:hover{
+    cursor: pointer;
+}
+
+.burger-menu-menu menu ul{
+    padding-top: 80px;
+    padding-left: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.burger-menu-menu{
+   height: 100vh;
+   width: 50%;
+   background-color: white;
+   position: fixed;
+   display: none;
+   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+
+
+}
+
+.ul-burger a{
+    font-size: 14px;
+}
 ul {
   display: flex;
   width: 800px;
   justify-content: space-between;
+
 }
 
 ul a {
@@ -315,7 +353,7 @@ footer{
     }
 
 
-    menu{
+    .menu-header{
         display: none;
     }
 
