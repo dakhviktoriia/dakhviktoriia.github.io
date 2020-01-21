@@ -1,0 +1,366 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+html {
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
+}
+header {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+}
+
+header p {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  text-decoration: underline;
+  text-decoration-color: brown;
+}
+
+.burger-menu{
+    display: none;
+}
+ul {
+  display: flex;
+  width: 800px;
+  justify-content: space-between;
+}
+
+ul a {
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+}
+
+ul a:hover {
+  color: brown;
+  text-decoration: underline;
+}
+
+
+section {
+    padding: 55px 0;
+    /* padding-bottom: 7.5vh; */
+    border-top: 1px solid gainsboro;
+    display: flex;
+
+}
+
+
+#hello {
+  /* margin-top: 50px; */
+  display: flex;
+  border: 0;
+}
+.hello-information {
+  width: 50vw;
+  padding-left: 80px;  
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+
+.hello-photo {
+  width: 50vw;
+  text-align: center;
+}
+
+.hello-photo img{
+    width: 400px;
+}
+
+
+
+
+.hello-information-title p {
+  font-size: 32px;
+  line-height: 25px;
+  text-decoration: underline;
+  text-decoration-color: brown;
+}
+
+.hello-information-text{
+    font-size: 18px;
+
+}
+.hello-information-info {
+  font-size: 14px;
+  width: 100%;
+}
+
+.hello-information-info p {
+    margin-bottom: 5px;
+}
+
+
+.title-info {
+  font-weight: 700;
+  float: left;
+  display: block;
+}
+
+.title-info + span {
+  padding-left: 150px;
+  display: block;
+}
+
+.icons{
+    padding-right: 10px
+}
+
+
+.icons::before{
+    display: inline-block;
+    font: normal normal normal 24px/1 "Material Design Icons";
+    font-size: inherit;
+    text-rendering: auto;
+    line-height: inherit;
+    -webkit-font-smoothing: antialiased;
+    color: black;
+}
+
+
+.linlendin-icon::before{
+    content: "\F33B";
+}
+
+.facebook-icon::before{
+    content: "\F20C";
+}
+
+.github-icon::before{
+    content: "\F2A4";
+}
+.instagram-icon::before{
+    content: "\F2FE"
+}
+
+
+
+
+
+.tittle-section{
+    padding-left: 80px;
+    width: 30vw;
+}
+
+.tittle-section p{
+  font-size: 26px;
+  line-height: 25px;
+  text-decoration: underline;
+  text-decoration-color:  brown;
+  text-transform: uppercase;
+}
+
+.info-section div{
+    margin-right: 5vw;
+}
+
+.info-section{
+    font-size: 18px;
+    display: flex;
+    width: 70vw;
+    padding-right: 70px;
+    justify-content: space-between;
+    flex-wrap: wrap ;
+
+
+}
+.checkmark{
+    color: brown;
+
+}
+
+.wrap-projects{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.project{
+    width: 250px;
+    height: 300;
+    margin-top: 20px;
+}
+
+.screen{
+    border-radius: 5px;
+    background-color: darkgrey;
+    height: 250px;
+    background-position: center;
+}
+
+.screen:hover{
+    transform: scale(1.02);
+}
+
+.project:hover{
+    cursor: pointer;
+    color: brown;
+    text-decoration: underline;
+}
+
+
+.form-wrapper{
+    display: flex;
+    width: 650px;
+    justify-content: space-between;
+}
+
+.inputs-wrap{
+    width: 300px;
+    height: 200px;
+}
+
+.textarea-wrap{
+    width: 300px;
+}
+form{
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+}
+
+input{
+    width: 300px;
+    height: 50px;
+    border-radius: 0;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    padding-left: 7px;
+
+}
+input:hover{
+    border: 2px solid brown;
+}
+
+footer{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(240, 240, 240);
+
+}
+
+@media screen and (max-width: 1100px){
+   ul{
+       width: 650px;
+     
+   }
+
+   ul a {
+    font-size: 12px;
+  }
+   
+   header p {
+       font-size: 18px;
+   }
+
+
+   .hello-information-title p {
+       font-size: 25px;
+   }
+
+   .hello-information-text{
+       font-size: 16px;
+   }
+
+   .hello-information-info{
+       font-size: 12px;
+   }
+
+   .tittle-section p{
+       font-size: 22px;
+   }
+
+   .info-section{
+       font-size: 16px;
+   }
+}
+
+@media screen and (max-width: 990px){
+    #hello{
+        flex-wrap: wrap;
+    }
+
+    .hello-information, .hello-photo{
+        width: 80vw;
+    }
+
+    .hello-information{
+        height: 50vh;
+    }
+
+    .hello-photo{
+        margin: 20px auto;
+        
+    }
+
+
+    menu{
+        display: none;
+    }
+
+    .burger-menu{
+        display: block;
+    }
+
+
+}
+
+@media screen and (max-width: 750px){
+    section{
+        display: block;
+    }
+    .info-section{
+        display: block;
+        width: 80vw;
+        margin: auto;
+        margin-top: 20px;
+        padding: 0;
+    }
+
+    .tittle-section{
+        width: 60vw;
+
+    }
+
+    .wrap-projects{
+        margin-top: 20px;
+        justify-content: space-around;
+        align-content: flex-start
+    }
+
+    .project{
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 490px){
+    .hello-photo img{
+        width: 290px;
+    }
+
+    .title-info + span {
+        padding-left: 120px;
+    }
+
+}
