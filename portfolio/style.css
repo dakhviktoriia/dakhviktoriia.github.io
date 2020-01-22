@@ -113,11 +113,14 @@ section {
   display: flex;
   flex-wrap: wrap;
   align-content: space-between;
+  margin-top: 20px;
 }
 
 .hello-photo {
   width: 50vw;
   text-align: center;
+  margin-top: 20px;
+  
 }
 
 .hello-photo img{
@@ -250,43 +253,31 @@ section {
     transform: scale(1.02);
 }
 
+.name-project a {
+    color: black;
+}
 .project:hover{
     cursor: pointer;
     color: brown;
     text-decoration: underline;
 }
 
-
 .form-wrapper{
     display: flex;
-    width: 650px;
-    justify-content: space-between;
+    width: 120%;
+    background-color: aquamarine;
+    margin: 0!important;
 }
 
-.inputs-wrap{
-    width: 300px;
-    height: 200px;
+.first-form-group{
+    background-color: lightcoral;
+    width: 50%;
+    margin: 0!important;
 }
-
-.textarea-wrap{
-    width: 300px;
-}
-form{
-    font-family: "Poppins", sans-serif;
-    font-size: 20px;
-}
-
-input{
-    width: 300px;
-    height: 50px;
-    border-radius: 0;
-    font-family: "Poppins", sans-serif;
-    font-size: 18px;
-    padding-left: 7px;
-
-}
-input:hover{
-    border: 2px solid brown;
+.second-form-group{
+    background-color: lightgreen;
+    width: 50%;
+    margin: 0!important;
 }
 
 footer{
@@ -361,6 +352,17 @@ footer{
         display: block;
     }
 
+    .hello-information{
+        width: 50vh;
+        margin: 20px auto;
+        padding-left: 20px;
+        height: 30vw;
+    }
+
+    .info{
+        margin-bottom: 10px;
+    }
+    
 
 }
 
@@ -390,6 +392,13 @@ footer{
     .project{
         margin-top: 20px;
     }
+
+    .hello-information{
+        width: 80vh;
+        height: 80vw;
+        margin: 20px auto;
+        padding-left: 20px;
+    }
 }
 
 @media screen and (max-width: 490px){
@@ -400,5 +409,26 @@ footer{
     .title-info + span {
         padding-left: 120px;
     }
+
+
+    .hello-information{
+        width: 80vh;
+        margin: 20px auto;
+    }
+}
+
+@media screen and (max-width: 330px){
+    .hello-photo img{
+        width: 250px;
+    }
+
+    
+    .hello-information{
+        width: 80vh;
+        margin: 20px auto;
+        padding-left: 20px;
+    
+    }
+    
 
 }

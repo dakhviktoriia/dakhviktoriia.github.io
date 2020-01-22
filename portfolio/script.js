@@ -25,3 +25,6 @@ document.querySelector('.closeB').onclick = function(){
     document.querySelector('.menuB').style.display = 'block';
 }
 
+// document.querySelector('.project').onmouseover = function(){
+//     document.querySelector('.name-project a').style.color = 'brown'
+// }
